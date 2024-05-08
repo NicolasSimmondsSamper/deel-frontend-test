@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 100px;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.selected {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #434343;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.image {
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.autocompleteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  text-align: center;
+}
